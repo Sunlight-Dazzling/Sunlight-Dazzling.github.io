@@ -142,7 +142,7 @@ text-shadow: black 6px 6px 6px;
 
 .right-container{ 
 
-float: right; 
+float: none;
 
 width: 60%; 
 
