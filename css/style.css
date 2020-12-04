@@ -5,7 +5,7 @@ header,
     height: 100%;
 }
 #intro1{
-    background: url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-size: cover;
 }
 *{ 
@@ -124,6 +124,7 @@ width: 60%;
 
 height: 85%; 
 
+margin-left: 30%;
 } 
 
 .right-container .content{ 
@@ -298,7 +299,7 @@ float: left;
 
 .right-container .jump .jump-3{ 
 
-margin-left: 3.3%; 
+margin-left: 10%; 
 
 width: 33%; 
 
