@@ -120,6 +120,7 @@ width: 60%;
 
 height: 85%; 
 
+margin-top: 10%;
 margin-left: 20%;
 
 margin-right:20%;
@@ -388,4 +389,10 @@ background-size: 100% 100%;
 
 display: flex; 
 
+}
+.a:hover
+{
+
+color:red;
+text-decoration:none;
 }
