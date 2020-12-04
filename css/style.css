@@ -123,8 +123,10 @@ float: none;
 width: 60%; 
 
 height: 85%; 
+margin-top: 10%;
+position: relative; 
 
-margin-left: 30%;
+margin-left: 50%;
 } 
 
 .right-container .content{ 
