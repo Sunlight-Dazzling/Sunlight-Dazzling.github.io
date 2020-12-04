@@ -1,0 +1,435 @@
+html,
+body,
+header,
+#intro1{
+    height: 100%;
+}
+#intro1{
+    background: url("https://images.pexels.com/photos/545042/pexels-photo-545042.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+*{ 
+
+margin: 0; 
+
+padding: 0; 
+
+} 
+
+html{ 
+
+height: 100%; 
+
+} 
+
+body{ 
+
+height: 100%; 
+
+background-image: url("../img/bg.jpg"); 
+
+background-repeat: no-repeat; 
+
+background-attachment: fixed; 
+
+background-size: 100% 100%; 
+
+} 
+
+.introduce{ 
+
+margin-left: 10%; 
+
+margin-right: 10%; 
+
+height: 100%; 
+
+border-radius: 36px; 
+
+background: rgba(0, 155, 255, .4); 
+
+} 
+
+.header{ 
+
+left: 10%; 
+
+right: 10%; 
+
+/* 设置图片居中 */ 
+
+display:flex; 
+
+justify-content: center; 
+
+align-items: center; 
+
+} 
+
+.header img{ 
+
+height: 50%; 
+
+width: 50%; 
+
+} 
+
+.left-container{ 
+
+float: left; 
+
+width: 40%; 
+
+height: 85%; 
+
+} 
+
+.left-container .avatar{ 
+
+height: 40%; 
+
+} 
+
+.left-container .avatar div{ 
+
+width: 50%; 
+
+height: 90%; 
+
+border-radius: 50%; 
+
+background-image: url("../img/avator.png"); 
+
+background-repeat: no-repeat; 
+
+background-position: 0 0; 
+
+background-size:cover; 
+
+/* 居中 */ 
+
+position: relative; 
+
+	top: 50%; 
+
+	left:50%; 
+
+	transform: translate(-50%,-50%); 
+
+} 
+
+.left-container .motto{ 
+
+height: 60%; 
+
+} 
+
+.left-container .motto div{ 
+
+width: 100%; 
+
+height: 60%; 
+
+/* 居中 */ 
+
+position: relative; 
+
+top: 50%; 
+
+	left:50%; 
+
+	transform: translate(-50%,-50%); 
+
+} 
+
+.left-container .motto div p{ 
+
+text-align: center; 
+
+font-size: 48px; 
+
+color: snow; 
+
+text-shadow: black 6px 6px 6px; 
+
+} 
+
+.right-container{ 
+
+float: right; 
+
+width: 60%; 
+
+height: 85%; 
+
+} 
+
+.right-container .content{ 
+
+height: 80%; 
+
+width: 90%; 
+
+margin-top: 20px; 
+
+margin-left: 5%; 
+
+background-color: rgba(255, 255, 255, .3); 
+
+box-shadow: rgba(0, 0, 0, .8) 8px 8px 8px; 
+
+border-radius: 25px; 
+
+} 
+
+.right-container .content div{ 
+
+margin-left: 5%; 
+
+} 
+
+.title{ 
+
+font-size: 36px; 
+
+text-align: center; 
+
+color: black; 
+
+} 
+
+.description{ 
+
+font-size: 24px; 
+
+color: black; 
+
+} 
+
+.description:hover{ 
+
+text-shadow: gray 3px 3px 3px; 
+
+} 
+
+.user{ 
+
+width: 30px; 
+
+height: 30px; 
+
+float: left; 
+
+border-radius: 50%; 
+
+background-image: url("../img/1.png"); 
+
+background-repeat: no-repeat; 
+
+background-size: 88% 88%; 
+
+display: flex; 
+
+justify-content: center; 
+
+align-items: center; 
+
+} 
+
+.education{ 
+
+width: 30px; 
+
+height: 30px; 
+
+float: left; 
+
+border-radius: 50%; 
+
+background-image: url("../img/2.png"); 
+
+background-repeat: no-repeat; 
+
+background-size: 88% 88%; 
+
+display: flex; 
+
+justify-content: center; 
+
+align-items: center; 
+
+margin-top: 2px; 
+
+} 
+
+.skill{ 
+
+width: 30px; 
+
+height: 30px; 
+
+float: left; 
+
+border-radius: 50%; 
+
+background-image: url("../img/3.png"); 
+
+background-repeat: no-repeat; 
+
+background-size: 100% 100%; 
+
+display: flex; 
+
+justify-content: center; 
+
+align-items: center; 
+
+margin-top: 2px; 
+
+} 
+
+.status{ 
+
+width: 30px; 
+
+height: 30px; 
+
+float: left; 
+
+border-radius: 50%; 
+
+background-image: url("../img/4.png"); 
+
+background-repeat: no-repeat; 
+
+background-size: 88% 88%; 
+
+display: flex; 
+
+justify-content: center; 
+
+align-items: center; 
+
+margin-top: 2px; 
+
+} 
+
+.right-container .jump{ 
+
+height: 10%; 
+
+margin-top: 5%; 
+
+width: 100%; 
+
+} 
+
+.right-container .jump .jump-1{ 
+
+width: 30%; 
+
+height: 100%; 
+
+float: left; 
+
+} 
+
+.right-container .jump .jump-2{ 
+
+margin-left: 3.3%; 
+
+width: 33%; 
+
+height: 100%; 
+
+float: left; 
+
+} 
+
+.right-container .jump .jump-3{ 
+
+width: 30%; 
+
+height: 100%; 
+
+margin-left: 3.3%; 
+
+float: left; 
+
+} 
+
+.button-container{ 
+
+width: 120px; 
+
+height: 60px; 
+
+border-radius: 25px; 
+
+outline: none; 
+
+font-size: 24px; 
+
+color: snow; 
+
+border: 2px solid black; 
+
+background: transparent; 
+
+transition: 2s; 
+
+cursor: pointer; 
+
+/* 居中 */ 
+
+position: relative; 
+
+	top: 50%; 
+
+	left:50%; 
+
+	transform: translate(-50%,-50%); 
+
+} 
+
+.button-container:hover{ 
+
+background-color: darkgrey; 
+
+} 
+
+.download-container{ 
+
+width: 60px; 
+
+height: 60px; 
+
+float: left; 
+
+background-image: url("../img/download.png"); 
+
+background-repeat: no-repeat; 
+
+background-size: 100% 100%; 
+
+display: flex; 
+
+} 
+
+.blog-container{ 
+
+width: 60px; 
+
+height: 60px; 
+
+float: right; 
+
+background-image: url("../img/csdn.png"); 
+
+background-repeat: no-repeat; 
+
+background-size: 100% 100%; 
+
+display: flex; 
+
+}
