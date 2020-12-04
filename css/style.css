@@ -36,30 +36,6 @@ background: rgba(0, 155, 255, .4);
 
 } 
 
-.header{ 
-
-left: 10%; 
-
-right: 10%; 
-
-/* 设置图片居中 */ 
-
-display:flex; 
-
-justify-content: center; 
-
-align-items: center; 
-
-} 
-
-.header img{ 
-
-height: 50%; 
-
-width: 50%; 
-
-} 
-
 .left-container{ 
 
 float: left; 
@@ -84,7 +60,7 @@ height: 90%;
 
 border-radius: 50%; 
 
-background-image: url("../img/avator.png"); 
+background-img:
 
 background-repeat: no-repeat; 
 
@@ -142,7 +118,7 @@ text-shadow: black 6px 6px 6px;
 
 .right-container{ 
 
-float: none;
+float: right;
 
 width: 60%; 
 
