@@ -304,7 +304,7 @@ margin-top: 2px;
 
 height: 10%; 
 
-margin-top: 5%; 
+margin-top: 10%; 
 
 width: 100%; 
 
@@ -320,7 +320,7 @@ float: left;
 
 } 
 
-.right-container .jump .jump-2{ 
+.right-container .jump .jump-3{ 
 
 margin-left: 3.3%; 
 
@@ -332,17 +332,6 @@ float: left;
 
 } 
 
-.right-container .jump .jump-3{ 
-
-width: 30%; 
-
-height: 100%; 
-
-margin-left: 3.3%; 
-
-float: left; 
-
-} 
 
 .button-container{ 
 
@@ -392,7 +381,10 @@ height: 60px;
 
 float: left; 
 
-background-image: url("../imsges/download.png"); 
+/*background-image: url("../
+/*imsges/
+/*download.png"); */
+font-size:20px;
 
 background-repeat: no-repeat; 
 
@@ -410,7 +402,10 @@ height: 60px;
 
 float: right; 
 
-background-image: url("../images/blog.png"); 
+font-size:20px;
+/*background-image: url("../
+/*images/
+/*blog.png");*/ 
 
 background-repeat: no-repeat; 
 
